@@ -96,7 +96,7 @@ function showMovieModal(id) {
     //insert data
     modalTitle.innerText = data.title
     modalDate.innerText = 'Release date : ' + data.release_date
-    modalDescription.innerText = data.descriptionge
+    modalDescription.innerText = data.description
     modalImage.innerHTML = `<img src="${POSTER_URL + data.image}" 
     alt="movie-poster" class="img-fluid">`
   })
